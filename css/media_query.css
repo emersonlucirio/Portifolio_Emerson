@@ -1,0 +1,61 @@
+@media screen and (max-width: 767px) {
+
+    .menu-icon {
+        display: flex;
+        flex-direction: column;
+        cursor: pointer;
+        padding: 10px;
+        width: 12%;
+    }
+
+    .menu-icon:hover {
+        transform: scale(1.2);
+    }
+
+    .bar {
+        width: 40px;
+        height: 3px;
+        background-color: #027353;
+        margin: 6px 0;
+    }
+
+    .menu {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        gap: 10px;
+        top: 75px;
+        padding: 10px;
+        transition: opacity 0.3s ease, transform 0.9s ease;
+
+    }
+
+    nav .menu a:hover {
+        color: black;
+        box-shadow: 0 0 5px cyan,
+            0 0 25px cyan, 0 0 50px cyan,
+            0 0 100px cyan, 0 0 200px cyan;
+    }
+
+    nav .menu a {
+        text-decoration: none;
+        color: #ffffff;
+        font-size: 18px;
+        margin-bottom: 10px;
+        display: block;
+        border: none;
+        box-shadow: none;
+        transition: box-shadow 0.5s ease;
+    }
+
+    header .img-perfil {
+        position: relative;
+        left: 20%;
+        top: 20%;
+        margin: 40px 0;
+    }
+
+    .box-tela header .title-name h1 {
+        font-size: 29px;
+    }
+}

@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap');
+
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700;800&family=Tilt+Neon&display=swap");
+
+:root {
+    --primary-font: 'Montserrat', sans-serif;
+    --secondary-font: "Nunito", sans-serif;
+
+    --color1: #081B26;
+    --color2: #03090D;
+    --color3: #73C6D9;
+    --color4: #c7c7c7;
+    --color5: #38b9d6;
+}

@@ -1,0 +1,135 @@
+@charset "UTF-8";
+
+body {
+    background: var(--color1);
+    color: var(--color4);
+    scroll-behavior: smooth;
+
+}
+
+a,
+h1,
+h2,
+h3 {
+    font-family: var(--primary-font);
+}
+
+p {
+    font-family: var(--secondary-font);
+    line-height: 30px;
+}
+
+nav .menu a:hover {
+    color: var(--color2);
+    background: var(--color3);
+    box-shadow: 0 0 5px cyan,
+        0 0 25px cyan, 0 0 50px cyan,
+        0 0 100px cyan, 0 0 200px cyan;
+
+}
+
+nav .menu a {
+    transition: all 0.5s ease-in-out;
+    padding: 6px 10px;
+    background: transparent;
+    border-radius: 16px;
+    border: 5px solid var(--color3);
+    font-size: 15px;
+    font-weight: bolder;
+    box-shadow: 0 0 5px cyan,
+        0 0 25px cyan;
+
+
+}
+
+
+.menu {
+    display: flex;
+    justify-content: right;
+    list-style-type: none;
+    gap: 45px;
+    padding: 40px;
+}
+
+a {
+    color: var(--color4);
+    text-decoration: none;
+
+}
+
+header .title-name {
+    color: var(--color5);
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.sub-title_cargo {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#sobre h3 {
+    font-size: 25px;
+    font-weight: bold;
+
+}
+
+#sobre p {
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.formacao h3 {
+    font-size: 25px;
+    font-weight: bold;
+
+}
+
+.formacao p {
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 26px;
+
+}
+
+.certificados h3 {
+    font-size: 25px;
+    font-weight: bold;
+
+}
+
+.certificados p {
+    font-size: 20px;
+    font-weight: normal;
+}
+
+footer img {
+    width: 50px;
+    height: 50px;
+
+
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+footer a {
+    margin: 20px;
+    text-align: center;
+}
+
+footer p {
+    font-size: 17px;
+    font-weight: normal;
+    margin-top: 2px;
+}
+
+footer:hover img {
+    transform: scale(1.1);
+}
+
+.box-tela {
+    padding: 5px 25px 5px 25px;
+}
